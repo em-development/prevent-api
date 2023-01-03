@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/DTO/DTO.csproj": {}
+  },
+  "projects": {
+    "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/Domain/Domain.csproj",
+        "packagesPath": "/Users/elvys.marcos/.nuget/packages/",
+        "outputPath": "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elvys.marcos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/elvys.marcos/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/DTO/DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/DTO/DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/DTO/DTO.csproj",
+        "packagesPath": "/Users/elvys.marcos/.nuget/packages/",
+        "outputPath": "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/DTO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elvys.marcos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/Domain/Domain.csproj": {
+                "projectPath": "/Users/elvys.marcos/Projects/EMDev/ARM/Prevent/ARMS.Prevent.API/src/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/elvys.marcos/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
